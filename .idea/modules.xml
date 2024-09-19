@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Api-Gateway/Api-Gateway.iml" filepath="$PROJECT_DIR$/Api-Gateway/Api-Gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Question-Service/Question-Service.iml" filepath="$PROJECT_DIR$/Question-Service/Question-Service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Quiz-Service/Quiz-Service.iml" filepath="$PROJECT_DIR$/Quiz-Service/Quiz-Service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Service-Register/Service-Register.iml" filepath="$PROJECT_DIR$/Service-Register/Service-Register.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demoMicroservices/demoMicroservices.iml" filepath="$PROJECT_DIR$/demoMicroservices/demoMicroservices.iml" />
+    </modules>
+  </component>
+</project>
