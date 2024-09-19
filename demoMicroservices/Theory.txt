@@ -1,0 +1,11 @@
+Mục đích: DTO là một đối tượng đơn giản được sử dụng để chuyển dữ liệu giữa các lớp hoặc tầng trong một ứng dụng. DTO thường chỉ chứa các thuộc tính dữ liệu, không có logic nghiệp vụ phức tạp.
+Chức năng: DTO giúp đơn giản hóa việc truyền tải dữ liệu bằng cách đóng gói dữ liệu từ một hệ thống hoặc dịch vụ này sang một hệ thống hoặc dịch vụ khác (ví dụ: từ server đến client, hoặc giữa các tầng trong ứng dụng).
+Cấu trúc: DTO thường chỉ bao gồm các thuộc tính (fields) và các phương thức getter/setter để truy cập chúng.
+Ví dụ: Dữ liệu của một đối tượng người dùng được chuyển từ tầng dịch vụ đến tầng giao diện người dùng thông qua một đối tượng DTO.
+
+Mục đích: DAO là một đối tượng hoặc lớp được sử dụng để truy cập cơ sở dữ liệu. Nó chứa các phương thức để tương tác với cơ sở dữ liệu (ví dụ: truy vấn, thêm mới, cập nhật, và xóa dữ liệu).
+Chức năng: DAO chịu trách nhiệm làm cầu nối giữa ứng dụng và cơ sở dữ liệu, giúp trừu tượng hóa các thao tác với cơ sở dữ liệu. Bằng cách sử dụng DAO, bạn có thể tách biệt logic truy vấn dữ liệu khỏi logic nghiệp vụ của ứng dụng.
+Cấu trúc: DAO chứa các phương thức thực hiện các thao tác CRUD (Create, Read, Update, Delete) đối với các đối tượng trong cơ sở dữ liệu.
+Ví dụ: DAO cung cấp các phương thức để lấy danh sách người dùng, thêm người dùng mới, xóa hoặc cập nhật người dùng trong cơ sở dữ liệu.
+OpenFeign giúp tạo ra các HTTP client dễ dàng và gọn gàng.
+Eureka Discovery Client giúp các microservices tìm kiếm và kết nối với nhau mà không cần cấu hình thủ công địa chỉ của từng service.
